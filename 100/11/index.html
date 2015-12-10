@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+       .box{
+            width: 30%;
+            height: 200px;
+            background-color: cyan;
+            transition: all 1s;
+            
+       }
+       .box:hover{
+
+      /* transform:rotate(360deg);/*transform可以实现旋转、缩放、移动的属性*/
+            /*transform:rotate实现旋转*/ 
+        transform:translate(100px,200px) rotate(360deg) scale(-0.2) skew(10deg,20deg); /*translate(x,y)给X,Y值进行移动，后空格隔开同时旋转*/
+       }
+
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+</body>
+</html>

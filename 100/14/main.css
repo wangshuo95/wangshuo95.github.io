@@ -1,0 +1,45 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.first{
+	width: 100%;
+	height: 50px;
+	background-color: red;
+
+}
+
+.two{
+	width: 100%;
+	height: 50px;
+	background-color: blue;
+	margin-top: 10px;
+}
+.one{
+	width: 100%;
+	height: 50px;
+	background-color: pink;
+	margin-top: 10px;
+}
+/*如果宽度大于800px的时候*/
+@media (min-width: 800px){
+       .first{
+       	width: 33.333333%;
+       	background-color: #aaa;
+       	float: left;
+       }
+       .two{
+       	width: 33.333333%;
+       	background-color: #000;
+       	float: left;
+       	margin:0 0;
+       }
+       .one{
+       	width: 33.333333%;
+       	background-color: blue;
+       	float: left;
+       	margin-top: 0px;
+       }
+	
+}
+

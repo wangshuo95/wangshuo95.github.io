@@ -1,0 +1,11 @@
+.circl{
+	width: 70px;
+	height: 70px;
+	background-color: lightseagreen;
+	margin: 40px auto;
+	border-radius: 50%;
+}
+.red{
+	background-color: yellow;
+}
+.circl.b{background-color: red;}

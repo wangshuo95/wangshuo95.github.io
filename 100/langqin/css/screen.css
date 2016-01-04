@@ -1,0 +1,117 @@
+.clearfix:before,
+.clearfix:after{
+content: " ";
+display: table;
+clear: both; /*http://haoduoshipin.com/v/166*/
+}
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-size: 1em;
+}
+
+h3{
+	padding-left: 0.5em;
+	padding-bottom: 0.5em;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.header{
+	position: fixed;
+	z-index: 333;
+	width: 100%;
+	height: 3.5em;
+	background: #CFD8DC;
+
+}
+.header img{
+	margin: 0% auto;
+	padding-left: 20%;
+
+}
+.banner{
+	position: relative;
+	margin-top: 17%;
+	width: 20em;
+	height: 17.188888em;
+	overflow: hidden;
+}
+.banner .tupian{
+	width: 100em;
+	position: absolute;
+
+}
+.num{ 
+    position:absolute;
+    z-index:222; 
+    list-style:none; 
+    right:10px; 
+    bottom:0px;
+}
+li{ 
+	float:left; 
+	width:20px; 
+	height:20px; 
+	border: 1px solid; 
+	text-align:center; 
+	line-height:20px; 
+	margin-right:5px; 
+	background:#aeabab; 
+	color:#000;}
+.num .cur{ 
+	background:#F00; 
+	color:#FFF;}
+.banner1{
+	width: 100%;
+	padding-top:1em;
+	height:12.5em; 
+	overflow: hidden; 
+}
+.banner1 .one{
+	padding-left: 1em;
+	padding-top: 0.5em;
+}
+.banner1 .one a{
+	width: 12.666666em;
+	height: 12.5em;
+}
+.main{
+	width: 100%;
+	padding-top: 0.5em;
+}
+.main1{
+	width: 100%;
+	padding-top: 0.5em;
+}
+.main2{
+	width: 100%;
+	padding-top: 0.5em;
+}
+.main3{
+	width: 100%;
+	padding-top: 0.5em;
+}
+.main3 h3{
+	float: right;
+	padding-right: 0.5em;
+}
+.footer{
+	width: 100%;
+	position: relative;
+}
+.footer .shouhou{
+	width: 100%;
+	height: 2em;
+	line-height: 2em; 
+	padding-left: 0.8em;
+}
+.footer .shouhou span{ 
+	font-size: 0.8em;
+	color: #c9c5c5;
+}
+

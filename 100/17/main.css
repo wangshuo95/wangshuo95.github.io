@@ -1,0 +1,21 @@
+.one{
+	width: 100px;
+	height: 100px;
+	background-color: lightseagreen;
+	border-radius:50%;
+	position: absolute;
+	left: 10px;
+	top: 20px;
+	transition: all 1s;
+	box-shadow: 2px 5px 30px 10px #FFC0CB inset;
+}
+.two{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	position: absolute;
+	left: 800px;
+	top: 300px;
+	border-radius: 30%;
+	box-shadow: 2px 2px 10px 10px rgba(244,244,10,2)
+}

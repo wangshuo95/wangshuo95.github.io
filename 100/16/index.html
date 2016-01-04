@@ -11,11 +11,19 @@
 	<script>
      $(function(){
 
-     	$(".circl").click(function(){
+     	/*$(".circl").click(function(){
      		$(this).toggleClass("red");
-     	} )
-     	 
+     	} )*/
+     $(".circl").click(function(){
+         if($(this).hasClass("red")){
+         	$(this).removeClass("red");
+         }
+      else{
+      	$(this).addClass("red");
+      }
      })
+     	 
+     });
 	</script>
 </body>
 </html>

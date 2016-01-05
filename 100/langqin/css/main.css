@@ -1,6 +1,0 @@
-.clearfix:before,
-.clearfix:after{
-content: " ";
-display: table;
-clear: both; /*http://haoduoshipin.com/v/166*/
-}

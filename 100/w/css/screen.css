@@ -1,0 +1,203 @@
+.clearfix:before,
+.clearfix:after{
+content: " ";
+display: table;
+clear: both; /*http://haoduoshipin.com/v/166*/
+}
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-size: 1em;
+}
+
+h3{
+	padding-left: 0.5em;
+	padding-bottom: 0.5em;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.header{
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 3.5em;
+	background: #CFD8DC;
+	opacity: 0.8;
+	transition: all 1s;
+
+
+}
+.header .icon-align-justify{
+	position: absolute;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	color: #fff;
+}
+.header .icon-align-justify:hover{
+      transform:rotate(360deg);
+}
+.header .icon-align-justify ul{
+	text-align: center;
+	background-color: #fff;
+
+	padding-top: 1em;
+	height: 10em;
+	line-height: 1.5em;
+}
+.saidenav.box {
+    background-color: #fff;
+    transition: all 1s;
+    transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
+    -ms-transform: translateX(-100px);
+    -o-transform: translateX(-100px);
+    -webkit-transform: translateX(-100px);
+}
+.saidenav {
+    position: fixed;
+   text-align: center;
+	background-color: #fff;
+	padding-top: 1em;
+	height: 10em;
+	line-height: 1.5em;
+    transition: all 1s;
+    transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+}
+
+.header img{
+	margin: 0% auto;
+	padding-left: 20%;
+
+}
+.banner{
+	position: relative;
+	margin-top: 17%;
+	width: 20em;
+	height: 17.188888em;
+	overflow: hidden;
+}
+.banner .tupian{
+	width: 100em;
+	position: absolute;
+
+}
+.num{ 
+    position:absolute;
+    z-index:222; 
+    list-style:none; 
+    right:10px; 
+    bottom:0px;
+}
+.num li{ 
+	float:left; 
+	width:20px; 
+	height:20px; 
+	border: 1px solid; 
+	text-align:center; 
+	line-height:20px; 
+	margin-right:5px; 
+	background:#aeabab; 
+	color:#000;}
+.num .cur{ 
+	background:#F00; 
+	color:#FFF;}
+.banner1{
+	width: 100%;
+	padding-top:1em;
+	height:12.5em; 
+	overflow: hidden; 
+}
+.banner1 .one{
+	padding-left: 1em;
+	padding-top: 0.5em;
+}
+.banner1 .one a{
+	width: 12.666666em;
+	height: 12.5em;
+}
+.main{
+	width: 100%;
+	padding-top: 0.5em;
+}
+.main1{
+	width: 100%;
+	padding-top: 0.5em;
+}
+.main2{
+	width: 100%;
+	padding-top: 0.5em;
+}
+.main3{
+	width: 100%;
+	padding-top: 0.5em;
+}
+.main3 h3{
+	float: right;
+	padding-right: 0.5em;
+}
+.shouhou{
+	width: 100%;
+	height: 2em;
+	line-height: 2em; 
+	padding-left: 0.8em;
+}
+.shouhou span{ 
+	font-size: 0.8em;
+	color: #c9c5c5;
+}
+.footer{
+	width: 100%;
+	cursor: pointer;
+	background-color:#CFD8DC ;
+}
+
+h4{
+	padding-left: 1em;
+	padding-bottom: 1.5em;
+	padding-top: 0.5em;
+} 
+.footer .langqin{
+      float: left;
+      padding-left: 1em;
+}
+.footer .langqin ul li{
+	width: 5em;
+	text-align: center;
+	height: 1.5em;
+	line-height: 1.5em;
+}
+.footer ul li a{
+	color: #9e9e9e;
+}
+.footer a:hover{
+	color: #727272;
+}
+.footer .peisong{
+	float: left;
+	padding-left: 1em;
+}
+.footer .peisong ul li{
+	width: 5em;
+	text-align: center;
+	height: 1.5em;
+	line-height: 1.5em;
+}
+.footer .zhifu{
+	float: left;
+	padding-left: 1em;
+}
+.footer .zhifu ul li{
+    width: 5em;
+	text-align: center;
+	height: 1.5em;
+	line-height: 1.5em;
+}

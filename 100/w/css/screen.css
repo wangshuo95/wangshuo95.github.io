@@ -4,11 +4,13 @@ content: " ";
 display: table;
 clear: both; /*http://haoduoshipin.com/v/166*/
 }
+
 *{
 	margin:0px;
 	padding:0px;
 	box-sizing:border-box;
-	font-size: 1em;
+	
+	 
 }
 
 h3{
@@ -21,58 +23,114 @@ a{
 ul{
 	list-style: none;
 }
-.header{
-	position: fixed;
-	z-index: 22;
-	width: 100%;
-	height: 3.5em;
-	background: #CFD8DC;
-	opacity: 0.8;
-	transition: all 1s;
-
-
+body{
+	 background: #EAEAF1;
+	 font-size: 63%;
 }
-.header .icon-align-justify{
+.icon-align-justify{
 	position: absolute;
-	margin-left: 0.5em;
-	margin-top: 0.5em;
-	color: #fff;
+	left: 0.5em;
+	top: 0.5em;
+	color:block;
 }
-.header .icon-align-justify:hover{
+.icon-align-justify:hover{
       transform:rotate(360deg);
 }
-.header .icon-align-justify ul{
+
+.site-nav {
+        position: absolute;
+        
+        background-color: #191918;
+      }
+      .site-nav-scrollable-container {
+        display: none;
+        overflow: auto;
+        height: 100%;
+      }
+      .site-nav-transition .site-nav-scrollable-container {
+        display: block;
+        width: 10em;
+      }
+      .site-nav-list-item-btn {
+        color: #b3b3b1;
+        display: block;
+        padding: 0 25px;
+        height: 42px;
+        line-height: 45px;
+        border: 0;
+        background: black;
+      }
+      .site-nav-list-item-btn:hover {
+        color: #fff;
+        outline: 0;
+      }
+      .site-nav-overlay {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+      }
+      .site-nav-drawer-open .site-nav-overlay {
+        left: 0;
+        z-index: 900;
+        display: block;
+      }
+      
+      .site-nav-drawer-open .site-nav-logo {
+        display: none;
+       
+      }
+      .site-nav-transition .site-nav-logo {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+        opacity: 0;
+
+
+
+
+      }
+      .container {
+        background: #EAEAF1;
+        height: 100%;
+       
+
+
+        -webkit-transition: -webkit-transform .2s cubic-bezier(0.2,0.3,0.25,0.9);
+        -moz-transition: -moz-transform .2s cubic-bezier(0.2,0.3,0.25,0.9);
+        -o-transition: -o-transform .2s cubic-bezier(0.2,0.3,0.25,0.9);
+        -ms-transition: -ms-transform .2s cubic-bezier(0.2,0.3,0.25,0.9);
+        transition: transform .2s cubic-bezier(0.2,0.3,0.25,0.9);
+      }
+      .site-nav-transition .container {
+        position: fixed;
+
+      }
+      .site-nav-drawer-open .container {
+        -webkit-transform: translate3d(10em,0,0);
+        -moz-transform: translate3d(10em,0,0);
+        -o-transform: translate3d(10em,0,0);
+        -ms-transform: translate3d(10em,0,0);
+        transform: translate3d(10em,0,0);
+        transition:all 1s;
+      }
+      .scroll-region {
+        height: 100%;
+        overflow: auto;
+        padding: 0px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+.logo{
+	display: block;
+	width: 100%;
 	text-align: center;
-	background-color: #fff;
+	
 
-	padding-top: 1em;
-	height: 10em;
-	line-height: 1.5em;
 }
-.saidenav.box {
-    background-color: #fff;
-    transition: all 1s;
-    transform: translateX(-100px);
-    -moz-transform: translateX(-100px);
-    -ms-transform: translateX(-100px);
-    -o-transform: translateX(-100px);
-    -webkit-transform: translateX(-100px);
-}
-.saidenav {
-    position: fixed;
-   text-align: center;
-	background-color: #fff;
-	padding-top: 1em;
-	height: 10em;
-	line-height: 1.5em;
-    transition: all 1s;
-    transform: translateX(0px);
-    -moz-transform: translateX(0px);
-    -ms-transform: translateX(0px);
-    -o-transform: translateX(0px);
-    -webkit-transform: translateX(0px);
-}
-
 .header img{
 	margin: 0% auto;
 	padding-left: 20%;
@@ -80,13 +138,13 @@ ul{
 }
 .banner{
 	position: relative;
-	margin-top: 17%;
-	width: 20em;
-	height: 17.188888em;
 	overflow: hidden;
+	width: 26.576655em;
+	height: 17.188888em;
+	
 }
 .banner .tupian{
-	width: 100em;
+	width: 135em;
 	position: absolute;
 
 }
@@ -123,6 +181,22 @@ ul{
 .banner1 .one a{
 	width: 12.666666em;
 	height: 12.5em;
+}
+/*----.banner1 .one{ 
+	width:960px; 
+	height:115px; 
+	overflow:hidden;
+	position:relative;
+}
+
+.banner1 .one ul{ 
+	width:2880px;
+	position:absolute;
+}---*/
+
+.banner1 .one ul li{ 
+	margin-right:10px; 
+	float:left;
 }
 .main{
 	width: 100%;
@@ -167,7 +241,8 @@ h4{
 } 
 .footer .langqin{
       float: left;
-      padding-left: 1em;
+      padding-left: 15%;
+      padding-bottom: 2em;
 }
 .footer .langqin ul li{
 	width: 5em;

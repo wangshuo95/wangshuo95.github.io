@@ -36,3 +36,7 @@ $(function(){
 			
 	})
 	})
+$(function(){
+		$(".one").kxbdMarquee({direction:"left"});
+		
+		})

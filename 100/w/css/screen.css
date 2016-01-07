@@ -139,12 +139,12 @@ body{
 .banner{
 	position: relative;
 	overflow: hidden;
-	width: 26.576655em;
+	width: 320px;
 	height: 17.188888em;
 	
 }
 .banner .tupian{
-	width: 135em;
+	width: 1600px;
 	position: absolute;
 
 }
@@ -215,8 +215,12 @@ body{
 	padding-top: 0.5em;
 }
 .main3 h3{
-	float: right;
+	text-align: right;
+	width: 100%;
 	padding-right: 0.5em;
+}
+.main3 a{
+	display: block;
 }
 .shouhou{
 	width: 100%;

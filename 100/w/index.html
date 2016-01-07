@@ -7,21 +7,68 @@
 	<link rel="stylesheet" href="css/screen.css" media="only screen and (max-device-width:760px) and (-webkit-min-device-pixel-ratio:2)">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+	<script type="text/javascript" src="js/jquery.kxbdmarquee.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </head>
 <body class="clearfix">
-	<div class="header">
-		<i class="icon-align-justify"></i>
-			<ul class="saidenav box">
+
+	<nav class="site-nav">
+      <button class="site-nav-logo icon-align-justify"></button>
+      <div class="site-nav-scrollable-container">
+        <ul class="site-nav-list">
+          <li>
+            <a class="site-nav-list-item-btn" href="">
+              名匠系列
+            </a>
+          </li>
+          <li>
+            <a class="site-nav-list-item-btn" href="">
+              骑士系列
+            </a>
+          </li>
+          <li>
+            <a class="site-nav-list-item-btn" href="">
+              康卡斯系列
+            </a>
+          </li>
+           <li>
+            <a class="site-nav-list-item-btn" href="">
+              女表系列
+            </a>
+          </li>
+           <li>
+            <a class="site-nav-list-item-btn" href="">
+              情侣系列
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="site-nav-overlay"></div>
+
+    <div class="container">
+
+      <div class="scroll-region">
+	<!--<div class="header">
+		<nav class="site-nav">
+			<i class="icon-align-justify"></i>
+			<div class="site-nav-scrollable-container">
+			<ul class="site-nav-list">
 				<li><a href="#">名匠系列</a></li>
 				<li><a href="#">骑士系列</a></li>
 				<li><a href="#">康卡斯系列</a></li>
 				<li><a href="#">女表系列</a></li>
 				<li><a href="#">情侣系列</a></li>
 			</ul>
-		
+			</div>
+		</nav>
 		<a href="index.html"><img src="images/logo.png"></a>
 	</div>
+	------>
+	
+		<a class="logo" href="index.html"><img src="images/logo.png"></a>
+	
+
 	<div class="banner">
 		<div class="tupian">
 		     <img src="images/banner_5.jpg"><img src="images/banner_2_01.jpg"><img src="images/banner_3.jpg"><img src="images/banner_4.jpg"><img src="images/banner_1_01.jpg">
@@ -37,15 +84,17 @@
 	<div class="banner1">
 		<h3>热卖品</h3>
 		<div class="one">
-		    <a href="#">
+		<ul>
+		    <li>
 		    	<img src="images/banner1_1.jpg">
-		    </a>
-		    <a href="#">
+		    </li>
+		    <li>
 		    	<img src="images/banner1_2.jpg">
-		    </a>
-		    <a href="#">
+		    </li>
+		    <li>
 		    	<img src="images/banner1_4.jpg">
-		    </a>
+		    </li>
+		   </ul>
 		</div>
 	</div>
 	<div class="main">
@@ -98,23 +147,19 @@
 			</ul>
 		</div>
 	</div>
+
 	<script>
-
-	 
-	  $('.icon-align-justify').click(function(){
-	  	console.log("$this.html");
-	  	$('.saidenav').removeClass('box');
-	  });
-	    $('.saidenav').click(function(){
-	  	console.log("$this.html");
-	  	$(this).addClass('box');
-	  })
-	
-
-	
-	
-
-	</script>
+      var body = $('body');
+      $('.site-nav-logo').click(function(){
+        body.addClass('site-nav-transition site-nav-drawer-open');
+      });
+      $('.site-nav-overlay').click(function(){
+        body.removeClass('site-nav-drawer-open');
+        setTimeout(function () {
+                   body.removeClass("site-nav-transition");
+                   }, 300);
+      });
+    </script>
 
 </body>
 </html>

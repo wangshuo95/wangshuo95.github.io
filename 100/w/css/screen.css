@@ -27,6 +27,7 @@ body{
 	 background: #EAEAF1;
 	 font-size: 63%;
 }
+
 .icon-align-justify{
 	position: absolute;
 	left: 0.5em;
@@ -94,9 +95,6 @@ body{
       .container {
         background: #EAEAF1;
         height: 100%;
-       
-
-
         -webkit-transition: -webkit-transform .2s cubic-bezier(0.2,0.3,0.25,0.9);
         -moz-transition: -moz-transform .2s cubic-bezier(0.2,0.3,0.25,0.9);
         -o-transition: -o-transform .2s cubic-bezier(0.2,0.3,0.25,0.9);
@@ -123,6 +121,7 @@ body{
         padding: 0px;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
+        -o-box-sizing:boder-box;
         -ms-box-sizing: border-box;
         box-sizing: border-box;
       }
@@ -242,7 +241,7 @@ body{
 	padding-left: 0.8em;
 }
 .shouhou span{ 
-	font-size: 0.8em;
+	font-size: 2em;
 	color: #c9c5c5;
 }
 .footer{

@@ -32,6 +32,7 @@ body{
 	left: 0.5em;
 	top: 0.5em;
 	color:block;
+	font-size: 2em;
 }
 .icon-align-justify:hover{
       transform:rotate(360deg);
@@ -50,8 +51,7 @@ body{
       .site-nav-transition .site-nav-scrollable-container {
         display: block;
         width: 10em;
-      }
-      .site-nav-list-item-btn {
+      }      .site-nav-list-item-btn {
         color: #b3b3b1;
         display: block;
         padding: 0 25px;
@@ -105,6 +105,7 @@ body{
       }
       .site-nav-transition .container {
         position: fixed;
+        width: 100%;
 
       }
       .site-nav-drawer-open .container {
@@ -117,6 +118,7 @@ body{
       }
       .scroll-region {
         height: 100%;
+
         overflow: auto;
         padding: 0px;
         -webkit-box-sizing: border-box;
@@ -139,12 +141,12 @@ body{
 .banner{
 	position: relative;
 	overflow: hidden;
-	width: 320px;
+	width: 100%;
 	height: 17.188888em;
 	
 }
 .banner .tupian{
-	width: 1600px;
+	width: 500%;
 	position: absolute;
 
 }
@@ -195,13 +197,24 @@ body{
 }---*/
 
 .banner1 .one ul li{ 
-	margin-right:10px; 
+	margin-right:0.05%; 
 	float:left;
+	width:10em; 
+}
+.one{
+	width: 1000%;
+}
+.banner1 h3{
+	width: 100%;
 }
 .main{
-	width: 100%;
+	
 	padding-top: 0.5em;
 }
+.main img, .main1 img, .main2 img, .main3 img{
+	width: 100%;
+}
+
 .main1{
 	width: 100%;
 	padding-top: 0.5em;
@@ -236,6 +249,8 @@ body{
 	width: 100%;
 	cursor: pointer;
 	background-color:#CFD8DC ;
+	padding-left: 10%;
+	font-size: 1.5em;
 }
 
 h4{
@@ -245,7 +260,7 @@ h4{
 } 
 .footer .langqin{
       float: left;
-      padding-left: 15%;
+      
       padding-bottom: 2em;
 }
 .footer .langqin ul li{

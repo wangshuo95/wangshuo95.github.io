@@ -240,12 +240,14 @@ body{
 	line-height: 4em; 
 	padding-left: 0.8em;
 	text-align: center;
-	font-weight: 700;
+	color: #c9c5c5;
+	font-weight: bold;
+	
 }
 }
 .shouhou span{ 
 	font-size: 1.2em;
-	color: #c9c5c5;
+	
 }
 .footer{
 	width: 100%;

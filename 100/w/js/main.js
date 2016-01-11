@@ -7,7 +7,8 @@ function pic(){
 	  $(".tupian").animate({left:"0"},800,function(){$(".num li:first").addClass("cur").siblings().removeClass("cur");})
 	  }
 	else{
-		$(".tupian").animate({left:"-=320"},800,function(){
+	   var w=$(".banner").width();
+		$(".tupian").animate({left:"-="+w},800,function(){
 			$(".num li:eq("+i+")").addClass("cur").siblings().removeClass("cur");
 		})
 	i++;
@@ -15,7 +16,7 @@ function pic(){
 	}
 	//当悬停在li上的时候切换图片
 	function cs(){
-		var k=i*320;
+		var k=i*w;
 		$(".tupian").stop(true,true).animate({left:"-"+k},800)
 		
 		}

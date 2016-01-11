@@ -163,27 +163,6 @@ body{
 .tupian img{
 	width: 100%;
 }
-
-.num{ 
-    position:absolute;
-    z-index:222; 
-    list-style:none; 
-    right:10px; 
-    bottom:0px;
-}
-.num li{ 
-	float:left; 
-	width:20px; 
-	height:20px; 
-	border: 1px solid; 
-	text-align:center; 
-	line-height:20px; 
-	margin-right:5px; 
-	background:#aeabab; 
-	color:#000;}
-.num .cur{ 
-	background:#F00; 
-	color:#FFF;}
 .banner1{
 	width: 100%;
 	padding-top:1em;

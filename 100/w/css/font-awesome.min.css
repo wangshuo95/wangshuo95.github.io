@@ -155,7 +155,7 @@ a .icon-rotate-90:before,a .icon-rotate-180:before,a .icon-rotate-270:before,a .
 .icon-chevron-up:before{content:"\f077";}
 .icon-chevron-down:before{content:"\f078";}
 .icon-retweet:before{content:"\f079";}
-.icon-shopping-cart:before{content:"\f07a";}
+.icon-shopping-cart:before{content:"\f07a"; color: block;}
 .icon-folder-close:before{content:"\f07b";}
 .icon-folder-open:before{content:"\f07c";}
 .icon-resize-vertical:before{content:"\f07d";}

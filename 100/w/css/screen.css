@@ -32,15 +32,20 @@ body{
 	position: absolute;
 	left: 0.5em;
 	top: 0.5em;
-	color:block;
+	color:black;
 	font-size: 2em;
 }
+
 .icon-shopping-cart{
-	position: fixed;
-	left: 89.375%;
+	
+	position: absolute;
+	right: 0.5em;
+	top:0.5em;
 	font-size: 2em;
-	top: 0.5em;
+	color: black;
+	z-index: 888;
 }
+
 .icon-align-justify:hover{
       transform:rotate(360deg);
 }
@@ -150,11 +155,15 @@ body{
 	height: 17.188888em;
 	
 }
-.banner .tupian{
-	width: 700%;
-	position: absolute;
+.tupian{
 
+	width: 100%;
+	overflow: hidden;
 }
+.tupian img{
+	width: 100%;
+}
+
 .num{ 
     position:absolute;
     z-index:222; 

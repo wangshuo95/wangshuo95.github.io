@@ -36,13 +36,10 @@ body{
 	font-size: 2em;
 }
 .icon-shopping-cart{
-	position: absolute;
-	left: 16.5em;
+	position: fixed;
+	left: 89.375%;
 	font-size: 2em;
 	top: 0.5em;
-}
-.ww{
-	color: #000;
 }
 .icon-align-justify:hover{
       transform:rotate(360deg);

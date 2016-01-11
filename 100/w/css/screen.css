@@ -171,31 +171,14 @@ body{
 }
 .banner1 .one{
 	padding-left: 1em;
-	padding-top: 0.5em;
-}
-.banner1 .one a{
 	width: 12.666666em;
-	height: 12.5em;
+	height: 11.25em;
 }
-/*----.banner1 .one{ 
-	width:960px; 
-	height:115px; 
-	overflow:hidden;
-	position:relative;
-}
-
-.banner1 .one ul{ 
-	width:2880px;
-	position:absolute;
-}---*/
 
 .banner1 .one ul li{ 
 	margin-right:0.05%; 
 	float:left;
-	width:10em; 
-}
-.one{
-	width: 1000%;
+	margin-right: 0.5em;
 }
 .banner1 h3{
 	width: 100%;

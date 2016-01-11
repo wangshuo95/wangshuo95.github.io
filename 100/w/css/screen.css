@@ -156,7 +156,7 @@ body{
 	
 }
 .tupian{
-
+    float: left;
 	width: 100%;
 	overflow: hidden;
 }
@@ -167,18 +167,19 @@ body{
 	width: 100%;
 	padding-top:1em;
 	height:12.5em; 
-	overflow: hidden; 
+	margin-bottom: 1.5em;
 }
 .banner1 .one{
+	overflow: hidden; 
 	padding-left: 1em;
-	width: 12.666666em;
+	width: 100%;
 	height: 11.25em;
 }
 
 .banner1 .one ul li{ 
 	margin-right:0.05%; 
 	float:left;
-	margin-right: 0.5em;
+	padding-right: 1em;
 }
 .banner1 h3{
 	width: 100%;
@@ -230,8 +231,9 @@ body{
 .footer{
 	width: 100%;
 	background-color:#CFD8DC ;
-	padding-left: 15%;
+	padding-left: 10%;
 	font-size: 1.5em;
+
 }
 h4{
 	text-align: center;
@@ -252,12 +254,9 @@ h4{
 .footer ul li a{
 	color: #9e9e9e;
 }
-.footer a:hover{
-	color: #727272;
-}
 .footer .peisong{
 	float: left;
-	padding-left: 1em;
+	padding-left: 10%;
 }
 .footer .peisong ul li{
 	width: 5em;
@@ -267,11 +266,17 @@ h4{
 }
 .footer .zhifu{
 	float: left;
-	padding-left: 1em;
+	padding-left: 10%;
 }
 .footer .zhifu ul li{
     width: 5em;
 	text-align: center;
 	height: 1.5em;
 	line-height: 1.5em;
+}
+.footer .ban{
+	width: 80%;
+	font-size: 12px;
+	padding-left: 15%;
+	text-align: center;
 }

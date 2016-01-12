@@ -191,6 +191,7 @@ body{
 .main img, .main1 img, .main2 img, .main3 img{
 	width: 100%;
 	height: 16.666666em;
+	opacity: 0.8;
 }
 
 .main1{

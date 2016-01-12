@@ -26,6 +26,14 @@ ul{
 body{
 	 background: #EAEAF1;
 	 font-size: 63%;
+	 font-family: Helvetica,
+	 Arial,
+	 "Hiragino Sans GB",
+	 "Microsoft Yahei",
+	 "微软雅黑",
+	 STHeiti,
+	 "华文细黑",
+	 sans-serif;
 }
 
 .icon-align-justify{
@@ -219,15 +227,26 @@ body{
 	height: 4em;
 	line-height: 4em; 
 	padding-left: 0.8em;
-	text-align: center;
 	color: #c9c5c5;
 	font-weight: bold;
+	padding-left: 5%;
+	padding-right: 5%;
+
 	
 }
 }
 .shouhou span{ 
 	font-size: 1.2em;
+	padding-left: 4%;
 	
+}
+.shouhou .bian{
+	line-height: 4em;
+	height: 1.5em;
+	width: 0.2em;
+	padding-top: 0.5em;
+	padding-right: 4%;
+	padding-left: 5%;
 }
 .footer{
 	width: 100%;

@@ -151,7 +151,11 @@ body{
 	
 
 }
+.header img{
+	margin: 0% auto;
+	padding-left: 20%;
 
+}
 .banner{
 	position: relative;
 	overflow: hidden;
@@ -160,22 +164,9 @@ body{
 	
 }
 .tupian{
+    float: left;
 	width: 100%;
-	position: absolute; 
-}
-.banner ul{
-    width: 4600px;
-    height: 361px; 
-    cursor: pointer; 
-    position: absolute;
-     top: 0px; 
-     left: 0px;
-}
-.banner li{
-	 float: left; 
-	 width:400px;
-	 height:275px; 
-	 overflow:hidden;
+	overflow: hidden;
 }
 .tupian img{
 	width: 100%;

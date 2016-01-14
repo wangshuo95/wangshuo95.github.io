@@ -270,3 +270,50 @@ user agent stylesheeta:-webkit-any-link {
     transition: -webkit-transform .15s cubic-bezier(0.55,0,0.1,1);
     transition: transform .15s cubic-bezier(0.55,0,0.1,1);
 }
+a {
+    background: transparent;
+}
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon-nixon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+user agent stylesheeti, cite, em, var, address, dfn {
+    font-style: italic;
+}
+i, cite, em, var, address, dfn {
+    font-style: italic;
+}
+.btt-btn_link {
+    display: block;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #1e1e1e;
+    color: white;
+    cursor: pointer;
+    transition: background-color .2s cubic-bezier(0.55,0,0.1,1);
+}
+a {
+    color: #1e1e1e;
+    text-decoration: underline;
+}
+Inherited from div.btt-btn.js-visible
+.btt-btn {
+    position: fixed;
+    width: 36px;
+    height: 50px;
+    text-align: center;
+    right: 0;
+    bottom: 100px;
+    -webkit-transform: translateX(36px);
+    transform: translateX(36px);
+    transition: -webkit-transform .15s cubic-bezier(0.55,0,0.1,1);
+    transition: transform .15s cubic-bezier(0.55,0,0.1,1);
+}

@@ -242,3 +242,31 @@ a {
 a {
     background: transparent;
 }
+user agent stylesheeta:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+
+
+
+
+
+
+.btt-btn.js-visible {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+.btt-btn {
+    position: fixed;
+    width: 36px;
+    height: 50px;
+    text-align: center;
+    right: 0;
+    bottom: 100px;
+    -webkit-transform: translateX(36px);
+    transform: translateX(36px);
+    transition: -webkit-transform .15s cubic-bezier(0.55,0,0.1,1);
+    transition: transform .15s cubic-bezier(0.55,0,0.1,1);
+}

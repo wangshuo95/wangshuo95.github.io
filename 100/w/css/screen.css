@@ -151,3 +151,9 @@ body{
 	padding-left: 20%;
 
 }
+.main .img{
+	background-position-x:center;
+	background-repeat: no-repeat;
+	background-position-y: center;
+    background-size: cover;
+}

@@ -137,7 +137,6 @@ h1, h2, h3, .h1, .h2, .h3 {
       }
       .scroll-region {
         height: 100%;
-
         overflow: auto;
         padding: 0px;
         -webkit-box-sizing: border-box;
@@ -327,6 +326,7 @@ color: #1e1e1e;
     padding-bottom: 15px;
 }
 .product-grid-module {
+    background-color: #fff;
     clear: both;
     margin: 60px 0;
 }

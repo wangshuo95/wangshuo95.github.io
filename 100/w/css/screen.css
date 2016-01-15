@@ -73,11 +73,11 @@ h1, h2, h3, .h1, .h2, .h3 {
       }     
 .site-nav-list{
     font-size: 1.3em;
+    text-align: center;
 }
        .site-nav-list-item-btn {
         color: #b3b3b1;
         display: block;
-        padding: 0 25px;
         height: 42px;
         line-height: 45px;
         border: 0;

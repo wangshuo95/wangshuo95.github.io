@@ -274,11 +274,12 @@ color: #1e1e1e;
     margin-top: 6px;
     text-transform: uppercase;
     letter-spacing: .25px;
-    padding-bottom: 2em;
+    
 }
 .mainauto{
     width: 100%;
     overflow: hidden;
+    margin-top:2em; 
 }
 .mainauto .shop-by-label{
     padding-top: 2em;
@@ -290,18 +291,10 @@ color: #1e1e1e;
 .shop-by-label{
     text-align: center;
 }
-.shop-by-type{
-color: #1e1e1e;
-    display: block;
-    font-size: 12px;
-    margin-top: 6px;
-    text-transform: uppercase;
-    letter-spacing: .25px;
-    padding-bottom: 2em;
-}
 .mainright{
     width: 100%;
     overflow: hidden;
+    margin-top: 2em
 }
 .mainright .shop-by-label{
     padding-top: 2em;
@@ -313,22 +306,14 @@ color: #1e1e1e;
 .shop-by-label{
     text-align: center;
 }
-.shop-by-type{
-color: #1e1e1e;
-    display: block;
-    font-size: 12px;
-    margin-top: 6px;
-    text-transform: uppercase;
-    letter-spacing: .25px;
-    padding-bottom: 2em;
-}
+
 .homepage-3 {
     padding-bottom: 15px;
 }
 .product-grid-module {
     background: #fff;
     clear: both;
-    margin: 60px 0;
+    margin: 0;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
     display: block;

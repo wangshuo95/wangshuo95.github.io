@@ -376,7 +376,10 @@ p {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
-
+.nav{
+    width: 100%;
+    text-align: center;
+}
 
 
 

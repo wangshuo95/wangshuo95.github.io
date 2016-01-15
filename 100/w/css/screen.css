@@ -155,6 +155,9 @@ h1, h2, h3, .h1, .h2, .h3 {
 	padding-left: 20%;
 
 }
+.main{
+    padding-bottom: 2em;
+}
 .main .img{
 	background-position-x:center;
 	background-repeat: no-repeat;
@@ -247,6 +250,34 @@ user agent stylesheeta:-webkit-any-link {
     text-decoration: underline;
     cursor: auto;
 }
+.main1{
+    background: #f7f8f9;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+.main1left{
+
+}
+.main1 .shop-by-label{
+    padding-top: 2em;
+}
+.main1 .shop-by-label a{
+    text-decoration: none;
+    color: #acb1b4;
+}
+.shop-by-label{
+    text-align: center;
+}
+.shop-by-type{
+color: #1e1e1e;
+    display: block;
+    font-size: 12px;
+    margin-top: 6px;
+    text-transform: uppercase;
+    letter-spacing: .25px;
+}
+
 
 
 

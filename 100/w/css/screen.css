@@ -256,9 +256,6 @@ user agent stylesheeta:-webkit-any-link {
     width: 100%;
     overflow: hidden;
 }
-.main1left{
-
-}
 .main1 .shop-by-label{
     padding-top: 2em;
 }
@@ -276,9 +273,109 @@ color: #1e1e1e;
     margin-top: 6px;
     text-transform: uppercase;
     letter-spacing: .25px;
+    padding-bottom: 2em;
 }
-
-
+.mainauto{
+    width: 100%;
+    overflow: hidden;
+}
+.mainauto .shop-by-label{
+    padding-top: 2em;
+}
+.mainauto .shop-by-label a{
+    text-decoration: none;
+    color: #acb1b4;
+}
+.shop-by-label{
+    text-align: center;
+}
+.shop-by-type{
+color: #1e1e1e;
+    display: block;
+    font-size: 12px;
+    margin-top: 6px;
+    text-transform: uppercase;
+    letter-spacing: .25px;
+    padding-bottom: 2em;
+}
+.mainright{
+    width: 100%;
+    overflow: hidden;
+}
+.mainright .shop-by-label{
+    padding-top: 2em;
+}
+.mainright .shop-by-label a{
+    text-decoration: none;
+    color: #acb1b4;
+}
+.shop-by-label{
+    text-align: center;
+}
+.shop-by-type{
+color: #1e1e1e;
+    display: block;
+    font-size: 12px;
+    margin-top: 6px;
+    text-transform: uppercase;
+    letter-spacing: .25px;
+    padding-bottom: 2em;
+}
+.homepage-3 {
+    padding-bottom: 15px;
+}
+.product-grid-module {
+    background: white;
+    clear: both;
+    margin: 60px 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+.product-grid-module-inner {
+    margin: 0 auto;
+    max-width: 940px;
+    width: 100%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.product-grid-module h2 {
+    font-size: 24px;
+    letter-spacing: .007em;
+    line-height: 24px;
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.homepage-3 .product-grid-module p {
+    margin-bottom: 25px;
+}
+@media screen and (max-width: 767px)
+.product-grid-module p {
+    font-size: 14px;
+    padding: 0 16.666%;
+    line-height: 26px;
+}
+.product-grid-module p {
+    color: #acb1b4;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 21px 0 66px;
+    padding: 0 17.666%;
+    text-align: center;
+    text-transform: none;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
 
 
 

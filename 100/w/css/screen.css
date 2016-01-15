@@ -70,7 +70,11 @@ h1, h2, h3, .h1, .h2, .h3 {
       .site-nav-transition .site-nav-scrollable-container {
         display: block;
         width: 10em;
-      }      .site-nav-list-item-btn {
+      }     
+.site-nav-list{
+    font-size: 1.3em;
+}
+       .site-nav-list-item-btn {
         color: #b3b3b1;
         display: block;
         padding: 0 25px;
@@ -105,7 +109,6 @@ h1, h2, h3, .h1, .h2, .h3 {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
         filter: alpha(opacity=0);
         opacity: 0;
-
 
 
 

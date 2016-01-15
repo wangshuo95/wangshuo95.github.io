@@ -251,7 +251,7 @@ user agent stylesheeta:-webkit-any-link {
     cursor: auto;
 }
 .main1{
-    background: #fff;
+    background: #f7f8f9;
     background-size: cover;
     width: 100%;
     overflow: hidden;
@@ -325,7 +325,6 @@ color: #1e1e1e;
     padding-bottom: 15px;
 }
 .product-grid-module {
-    background: white;
     clear: both;
     margin: 60px 0;
 }

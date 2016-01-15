@@ -326,7 +326,7 @@ color: #1e1e1e;
     padding-bottom: 15px;
 }
 .product-grid-module {
-    background-color: #000;
+    background: #000;
     clear: both;
     margin: 60px 0;
 }

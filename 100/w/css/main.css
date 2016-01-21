@@ -113,3 +113,77 @@ h2 {
     margin: 14px 0 30px;
     text-transform: uppercase;
 }
+h3 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 2em;
+    -webkit-margin-after: 2em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.button-group {
+    text-align: center;
+}
+.btn-primary {
+    color: white;
+    background-color: #1e1e1e;
+    border: 0;
+    box-shadow: inset 0 0 0 3px #1e1e1e;
+}
+button, input[type="button"], input[type="submit"], .btn {
+    transition: all .125s ease-in-out;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .05em;
+    line-height: 40px;
+    min-width: 200px;
+    max-width: 404px;
+    margin-bottom: .25em;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+a {
+    color: #1e1e1e;
+}
+a {
+    background: transparent;
+}
+user agent stylesheeta:-webkit-any-link {
+   
+    text-decoration: underline;
+    cursor: auto;
+}
+.mani1{
+    background: #f7f8f9;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+     background-size: cover;
+}
+
+.main1 .shop-by-label{
+    padding-top: 2em;
+}
+ .shop-by-label a{
+    text-decoration: none;
+    color: #acb1b4;
+}
+.shop-by-label{
+    padding-left: 10%;
+}
+.shop-by-type{
+color: #1e1e1e;
+    display: block;
+    font-size: 12px;
+    margin-top: 6px;
+    text-transform: uppercase;
+    letter-spacing: .25px;
+    
+}

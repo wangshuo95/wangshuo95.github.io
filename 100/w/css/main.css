@@ -61,3 +61,55 @@ h1, h2, h3, .h1, .h2, .h3 {
 	padding-top: 1%;	
 
 }
+.scroll-region .logo{
+    padding-left: 42%;
+    padding-right: 50%;
+
+}
+.main{
+    padding-bottom: 2em;
+}
+.main .img{
+    background-position-x:center;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: cover;
+}
+.homepage-1 .cta-container h2 {
+    font-size: 28px;
+    line-height: 30px;
+    text-transform: none;
+    letter-spacing: 0;
+}
+h2, .h2 {
+    font-size: 40px;
+    letter-spacing: .00001em;
+    line-height: 40px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+h2 {
+    display: block;
+    font-size: 1.8em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.main .cta-container .cta-container-inner, .homepage-1 .cta-container.center .cta-container-inner {
+    margin: 0 auto;
+    max-width: 980px;
+    text-align: center;
+    width: 100%;
+}
+.homepage-1 .cta-container h3 {
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: .00125em;
+    line-height: 13px;
+    margin: 14px 0 30px;
+    text-transform: uppercase;
+}

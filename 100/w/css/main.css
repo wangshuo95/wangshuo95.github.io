@@ -187,5 +187,75 @@ color: #1e1e1e;
     margin-top: 6px;
     text-transform: uppercase;
     letter-spacing: .25px;
-    
+ }   
+
+
+.homepage-2 {
+background: #f7f8f9;
+background-size: cover;
+}
+
+.homepage-2 .homepage-3up {
+margin-left: auto;
+margin-right: auto;
+padding: 0;
+max-width: 940px;
+text-align: center;
+}
+
+@media screen and (min-width: 990px)
+.desktop-col-4-gutter-full {
+width: 33.3333333333%;
+}
+@media screen and (min-width: 768px)
+.tablet-col-12-gutter-full {
+width: 100%;
+}
+.col-12-gutter-full {
+width: 100%;
+}
+.col-gutter-full {
+vertical-align: top;
+box-sizing: border-box;
+display: inline-block;
+float: none;
+margin-right: -0.31em;
+width: 8.3333333333%;
+padding-top: 1em;
+padding-left: 1em;
+}
+
+.homepage-2 .homepage-3up .homepage-3up-cell {
+margin-bottom: 56px;
+}
+
+.homepage-2 .homepage-3up {
+text-align: center;
+}
+
+.homepage-2 .homepage-3up img {
+max-width: 100%;
+transition: opacity .25s cubic-bezier(0.55,0,0.1,1);
+}
+img {
+border: 0;
+}
+
+.homepage-2 .homepage-3up .shop-by-label {
+color: #acb1b4;
+font-size: 11px;
+margin-top: 24px;
+letter-spacing: .25px;
+}
+.homepage-2 .homepage-3up a {
+text-decoration: none;
+color: #acb1b4;
+}
+.homepage-2 .homepage-3up .shop-by-type {
+color: #1e1e1e;
+display: block;
+font-size: 12px;
+margin-top: 6px;
+text-transform: uppercase;
+letter-spacing: .25px;
 }

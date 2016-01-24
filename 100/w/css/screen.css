@@ -40,13 +40,7 @@ h1, h2, h3, .h1, .h2, .h3 {
     margin-bottom: 10px;
 }
 
-.icon-align-justify{
-	position: absolute;
-	left: 0.5em;
-	top: 0.5em;
-	color:black;
-	font-size: 2em;
-}
+
 
 .icon-shopping-cart{
 	
@@ -57,94 +51,7 @@ h1, h2, h3, .h1, .h2, .h3 {
 	color: blacks;
 	z-index: 888;
 }
-.site-nav {
-        position: absolute;
-        
-        background-color: #191918;
-      }
-      .site-nav-scrollable-container {
-        display: none;
-        overflow: auto;
-        height: 100%;
-      }
-      .site-nav-transition .site-nav-scrollable-container {
-        display: block;
-        width: 10em;
-      }     
-.site-nav-list{
-    font-size: 1.3em;
-    text-align: center;
-}
-       .site-nav-list-item-btn {
-        color: #b3b3b1;
-        display: block;
-        height: 42px;
-        line-height: 45px;
-        border: 0;
-        background: black;
-      }
-      .site-nav-list-item-btn:hover {
-        color: #fff;
-        outline: 0;
-      }
-      .site-nav-overlay {
-        display: none;
-        position: absolute;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-      }
-      .site-nav-drawer-open .site-nav-overlay {
-        left: 0;
-        z-index: 900;
-        display: block;
-      }
       
-      .site-nav-drawer-open .site-nav-logo {
-        display: none;
-       
-      }
-      .site-nav-transition .site-nav-logo {
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-        filter: alpha(opacity=0);
-        opacity: 0;
-
-
-
-      }
-      .container {
-        background: #EAEAF1;
-        height: 100%;
-        -webkit-transition: -webkit-transform .2s cubic-bezier(0.2,0.3,0.25,0.9);
-        -moz-transition: -moz-transform .2s cubic-bezier(0.2,0.3,0.25,0.9);
-        -o-transition: -o-transform .2s cubic-bezier(0.2,0.3,0.25,0.9);
-        -ms-transition: -ms-transform .2s cubic-bezier(0.2,0.3,0.25,0.9);
-        transition: transform .2s cubic-bezier(0.2,0.3,0.25,0.9);
-      }
-      .site-nav-transition .container {
-        position: fixed;
-        width: 100%;
-
-      }
-      .site-nav-drawer-open .container {
-        -webkit-transform: translate3d(10em,0,0);
-        -moz-transform: translate3d(10em,0,0);
-        -o-transform: translate3d(10em,0,0);
-        -ms-transform: translate3d(10em,0,0);
-        transform: translate3d(10em,0,0);
-        transition:all 1s;
-      }
-      .scroll-region {
-        height: 100%;
-        overflow: auto;
-        padding: 0px;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        -o-box-sizing:boder-box;
-        -ms-box-sizing: border-box;
-        box-sizing: border-box;
-      }
 .logo{
 	display: block;
 	width: 100%;

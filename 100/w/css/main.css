@@ -40,6 +40,27 @@ h1, h2, h3, .h1, .h2, .h3 {
     margin-top: 20px;
     margin-bottom: 10px;
 }
+.header{
+    width: 100%;
+    
+}
+.header .logo{
+    text-align: center;
+    background-color: #CFD8DC;
+}
+
+.header ul{
+    width: 100%;
+    height: 2em;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 3%;
+}
+.header ul li{
+    float: left;
+    font-size: 2em;
+    width: 20%;
+}
 .main{
     padding-bottom: 2em;
 }
@@ -48,7 +69,7 @@ h1, h2, h3, .h1, .h2, .h3 {
     background-repeat: no-repeat;
     background-position-y: center;
     background-size: cover;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 .homepage-1 .cta-container h2 {
     font-size: 28px;

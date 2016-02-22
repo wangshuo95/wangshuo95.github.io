@@ -12,3 +12,38 @@ clear: both; /*http://haoduoshipin.com/v/166*/
 	
 	 
 }
+h3{
+	padding-left: 0.5em;
+	padding-bottom: 0.5em;
+}
+a{
+	text-decoration: none;
+	    color: #1e1e1e;
+}
+ul{
+	list-style: none;
+}
+body{
+	 background: #EAEAF1;
+	 font-size: 63%;
+	 font-family: Helvetica,
+	 Arial,
+	 "Hiragino Sans GB",
+	 "Microsoft Yahei",
+	 "微软雅黑",
+	 STHeiti,
+	 "华文细黑",
+	 sans-serif;
+}
+h1, h2, h3, .h1, .h2, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.header{
+    width: 100%;
+    
+}
+.header .logo{
+    text-align: center;
+    background-color: #CFD8DC;
+}

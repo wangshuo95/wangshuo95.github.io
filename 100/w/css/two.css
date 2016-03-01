@@ -12,13 +12,13 @@ clear: both; /*http://haoduoshipin.com/v/166*/
 	
 	 
 }
+
 h3{
 	padding-left: 0.5em;
 	padding-bottom: 0.5em;
 }
 a{
 	text-decoration: none;
-	    color: #1e1e1e;
 }
 ul{
 	list-style: none;
@@ -35,8 +35,23 @@ body{
 	 "华文细黑",
 	 sans-serif;
 }
-h1, h2, h3, .h1, .h2, .h3 {
-    margin-top: 20px;
-    margin-bottom: 10px;
+.input{
+	border: 1px #ccc solid;
+	width: 100%;
+	padding-left: 2%;
+	padding-top: 2%;
 }
-
+.yanse{
+	color: #ccc;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.se{
+	color: #000;
+	padding-right: 3%;
+	padding-left: 3%;
+	font-size: 1em;
+}
+.xian{
+	  border-bottom:1px #ccc dashed;
+	}

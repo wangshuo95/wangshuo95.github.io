@@ -44,6 +44,10 @@ h1, h2, h3, .h1, .h2, .h3 {
     
 }
 .header .logo{
-    text-align: center;
+    padding-left: 2%;
     background-color: #CFD8DC;
+
+}
+.logo img{
+	width: 40%;
 }

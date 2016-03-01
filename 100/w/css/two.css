@@ -41,11 +41,12 @@ h1, h2, h3, .h1, .h2, .h3 {
 }
 .header{
     width: 100%;
+    background-color: #CFD8DC;
     
 }
 .header .logo{
     padding-left: 2%;
-    background-color: #CFD8DC;
+   
 
 }
 .logo img{

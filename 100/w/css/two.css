@@ -52,6 +52,23 @@ body{
 	padding-left: 3%;
 	font-size: 1em;
 }
+.banner{
+	width: 100%;
+}
 .xian{
 	  border-bottom:1px #ccc dashed;
 	}
+	.w{
+		padding-top: 5%;
+		text-align: center;
+	}
+	.kuan{
+		width: 100%;
+	}
+	.jian{
+		padding-top: 5%;
+		padding-bottom: 6%;
+	}
+	.see{
+		color: #ff0000;
+		}

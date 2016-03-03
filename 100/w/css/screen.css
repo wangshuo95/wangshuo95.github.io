@@ -187,6 +187,12 @@ color: #1e1e1e;
     letter-spacing: .25px;
     
 }
+.main1 img{
+     margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+}
 .mainauto{
     width: 100%;
     overflow: hidden;

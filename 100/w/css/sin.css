@@ -1,0 +1,20 @@
+.dl{
+	width: 100%;
+	padding-left: 65%;
+	background-color: #ccc;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	
+}
+.dl a{
+	padding-right: 3%;
+}
+.dl .a1{
+      font-weight: bold;
+      font-size: 1.4em;
+}
+.dl .a2{
+	color: red;
+      font-weight: bold;
+      font-size: 1.4em;
+}

@@ -1,0 +1,78 @@
+.clearfix:before,
+.clearfix:after{
+content: " ";
+display: table;
+clear: both; /*http://haoduoshipin.com/v/166*/
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	
+	 
+}
+
+h3{
+	padding-left: 0.5em;
+	padding-bottom: 0.5em;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+body{
+	 background: #fff;
+	 font-size: 63%;
+	 font-family: Helvetica,
+	 Arial,
+	 "Hiragino Sans GB",
+	 "Microsoft Yahei",
+	 "寰蒋闆呴粦",
+	 STHeiti,
+	 "鍗庢枃缁嗛粦",
+	 sans-serif;
+}
+.dl{
+	width: 100%;
+	padding-left: 65%;
+	background-color: #ccc;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	
+}
+.dl a{
+	padding-right: 3%;
+}
+.dl .a1{
+      font-weight: bold;
+      font-size: 1.4em;
+}
+.dl .a2{
+	color: red;
+      font-weight: bold;
+      font-size: 1.4em;
+}
+.dh{
+	width: 100%;
+	border: 1px #ccc solid;
+	padding: 3%;
+	background-color: #fff;
+}
+.dh a{
+	font-size: 4em;
+    padding-right: 7%;
+ }
+.dh .aa{
+	padding-right: 28%;
+	padding-left: 3%;
+	font-weight: bold;
+	font-size: 4em;
+}
+.tt{
+	text-align: center;
+	padding-top: 10%;
+	border-bottom: 1px solid #000;
+}

@@ -30,9 +30,9 @@ body{
 	 Arial,
 	 "Hiragino Sans GB",
 	 "Microsoft Yahei",
-	 "微软雅黑",
+	 "寰蒋闆呴粦",
 	 STHeiti,
-	 "华文细黑",
+	 "鍗庢枃缁嗛粦",
 	 sans-serif;
 }
 .input{
@@ -71,4 +71,22 @@ body{
 	}
 	.see{
 		color: #ff0000;
+		}
+		.fen{
+			width: 100%;
+			text-align: center;
+		}
+		.fen li{
+			
+			border: 1px #ccc solid;
+			float: left;
+			margin-left: 5%;
+			margin-top: 4%;
+			padding: 2%;
+			background-color: #ccc;
+		}
+		.fen .dq{
+			border: none;
+			background-color: #fff;
+			color: red;
 		}

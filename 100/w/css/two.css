@@ -75,18 +75,22 @@ body{
 		.fen{
 			width: 100%;
 			text-align: center;
+			text-align: center;
 		}
 		.fen li{
 			
 			border: 1px #ccc solid;
 			float: left;
-			margin-left: 5%;
+			margin-left: 3%;
 			margin-top: 4%;
-			padding: 2%;
+			padding: 1% 2% 1% 2%;
 			background-color: #ccc;
 		}
 		.fen .dq{
 			border: none;
 			background-color: #fff;
 			color: red;
+		}
+	.fen .s1{
+			margin-left: 5%;
 		}

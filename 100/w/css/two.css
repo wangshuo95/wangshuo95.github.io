@@ -46,14 +46,20 @@ body{
 	padding-top: 2%;
 	padding-bottom: 2%;
 }
-.se{
+ .se{
 	color: #000;
-	padding-right: 3%;
-	padding-left: 3%;
+	
+	padding-left: 1%;
 	font-size: 1em;
+}
+.yanse .se1{
+ 	padding-left: 12%;
 }
 .banner{
 	width: 100%;
+}
+.banner p a{
+       color: #000;
 }
 .xian{
 	  border-bottom:1px #ccc dashed;

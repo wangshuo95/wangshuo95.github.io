@@ -1,0 +1,56 @@
+body{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+/*header_begin*/
+#logo{
+	padding-top: 7px;
+}
+.gouwuche{
+	height: 50px;
+	line-height: 50px;
+}
+.sousuo{
+	margin-top: 20px;
+}
+.cc{
+	position: relative;
+	top: 0px;
+}
+/*header_end*/
+
+/*main_begin*/
+.main{
+	margin-top: 15px;
+}
+.panel {margin-top: 40px; }
+.jiage .fl{
+	padding: 5px 15px;
+}
+.dropdown-menu li {float:left ;}
+@media only screen and (max-width:768px ) {
+	.btn-group-vertical>.btn, .btn-group-vertical>.btn-group, .btn-group-vertical>.btn-group>.btn {
+    
+    float: left;
+    width: 5rem;
+    
+}
+}
+@media only screen and (max-width:990px ) {
+	.btn-group-vertical>.btn, .btn-group-vertical>.btn-group, .btn-group-vertical>.btn-group>.btn {
+    
+    float: left;
+    width: 5rem;
+    
+}
+}
+@media only screen and (max-width:768px ) {
+	.bs-example-navbar-collapse-1 ul li{float: left;}
+}
+.dropdown-toggle {width: 50px;
+}
+
+.jiage a{
+	padding-left: 15px;
+	color: #000000;
+/*main_end*/

@@ -1,36 +1,205 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>详情页</title>
-	<link rel="stylesheet" href="css/san.css" media="only screen and (max-device-width:767px) and (-webkit-min-device-pixel-ratio:2)">
-  <link rel="stylesheet" href="css/san.css" media="only screen and (min-device-width:768px) and (max-device-width:990px) and (-webkit-min-device-pixel-ratio:2)">
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
 
-  <link rel="stylesheet" type="text/css" href="css/main.css" media="only screen and (min-device-width:991px)">
-  
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="only screen and (max-device-width:768px) and (-webkit-min-device-pixel-ratio:2)">
-  <link rel="stylesheet" type="text/css" href="css/main.css" media="only screen and (min-device-width:991px) and (max-device-width:1200px) and (-webkit-min-device-pixel-ratio:2)">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/fenye.css"/>
+    <link rel="stylesheet" type="text/css" href="css/san.css"/>
+    <link rel="stylesheet" href="css/detail.css" />
+    <link rel="stylesheet" href="css/main.css">
 
- 	<script type="text/javascript" src="js/jquery-1.7.1.js"></script>
-</head>
-<body>
-	<p class="dl">
-		<a class="a1" href="#">你好，请登录</a>
-		<a class="a2" href="#">免费注册</a>
-        <a class="a1" href="#">我的订单</a<>
-        <a class="a1" href="#">客户服务</a>
-	</p>
-	<div class="dh">
-	 <a class="aa" href="#"><</a>
-	 <a href="#">商品</a>
-	 <a href="#">详情</a>
-	 <a href="#">评价</a>
-	</div>
-      <div class="tt">
-      	<img src="http://img14.360buyimg.com/n1/jfs/t1666/103/182682762/103742/d969861a/557e83a2N9dcf36d3.jpg" alt="">
-      </div> 
-      <p>浪琴(longines)手表 名将系列机械情侣表男表</br></p> 	
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--header_begin-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a id="logo" class="navbar-brand" href="#"><img src="images/logo_02.png" alt="" /></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">男装</a></li>
+        <li><a href="#">女装</a></li>
+        <li><a href="#">鞋履</a></li>
+
+     </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="##" style="color:red">登录</a></li>
+        <li class="dropdown">
+          <a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span><span class="badge">0</a>
+      </span>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-->
+      </nav>
+    <!--header_end-->
+<div class="container sousuo text-center">
+      <form class="bs-example bs-example-form" role="form">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="春季最新款">
+            <span class="cc btn input-group-addon glyphicon glyphicon-search"></span>
         </div>
-	</div>
-</body>
+      </form>
+      </div>
+      <hr>
+    <!--main_begin-->
+    <div class="container">
+    	<h5><span><a href="">所有商品></a></span><span><a href="">男装></a></span><span><a href="">衬衫></a></span><span><a href="">长袖衬衫></a></span></h5>
+    	<div class="row">
+    		<div class="col-md-2 left1">
+  				<a href="#" class="thumbnail">
+		      		<img src="images/mdsmall.jpg" alt="...">
+		    		</a>
+		    		<a href="#" class="thumbnail">
+		      		<img src="images/mdsmall.jpg" alt="...">
+		    		</a>
+		    		<a href="#" class="thumbnail">
+		      		<img src="images/mdsmall.jpg" alt="...">
+		    		</a>
+  			</div>
+  			<div class="col-xs-6 col-md-4 left2">
+
+		    		<a href="#" class="thumbnail">
+		      		<img src="images/722086_01--w_498_h_498.jpg" alt="...">
+		    		</a>
+
+  			</div>
+
+
+  			<div class="col-xs-6 col-md-5">
+  				<ul class="right">
+  					<li class="right1"><a href="#">Metersbonwe&nbsp;&nbsp;&nbsp;&nbsp;</a>男长款剪裁印花衬衫</li>
+  					<li class="right2">商品编号：722086</li>
+  					<li class="right3">售价：<span class="price">￥ 199</span></li>
+  					<li class="right4"> 本品不参加vip，svip折扣 </li>
+  				</ul>
+    			<div class="color_change right5">
+				颜色：<strong>蓝白</strong>
+				<ul >
+					<li class="small right6 "><img src="images/small.jpg" alt="蓝白" /></li>
+
+				</ul>
+				<div class="pro_size right7">
+				尺码：<strong>请选择颜色</strong>
+			</div>
+			<div class="btn-group" role="group" aria-label="...">
+  <button type="button" class="btn btn-default">170/92A</button>
+  <button type="button" class="btn btn-default">175/96A</button>
+  <button type="button" class="btn btn-default">180/100A</button>
+  <button type="button" class="btn btn-default">185/104A</button>
+</div>
+			<div class="pro_num right8">
+				<p class="right11">数量：</p>
+				<select id="num_sort" style="width:40px;" >
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+			<div class="pro_price right9">
+				总计：<span>200</span>元
+			</div>
+			<div id="cart right10">
+				<a href="#"><img src="images/btn_cart.png"/></a>
+			</div>
+		</div>
+			</div>
+  			</div>
+
+
+  			<div>
+  				<ol class="breadcrumb">
+					  <li class="active">商品详情</a></li>
+  					<li><a href="#">商品评价</a></li>
+  					<li><a href="#">咨询</a></li>
+  					<li><a href="#">购买须知</a></li>
+					</ol>
+  			</div>
+  			<div class="panel panel-default">
+  				<div class="panel-body text-center">
+    			<h3 class="text-left">产品信息</h3>
+    			<hr />
+    			<div class="row">
+    				<div class="col-md-4">
+    					品牌：puma
+    				</div>
+    				<div class="col-md-4">
+    					款名：PUMA男子休闲服
+    				</div>
+    				<div class="col-md-4">
+    					款号：834502
+    				</div>
+    			</div>
+
+    			<h3 class="text-left">品牌介绍</h3>
+    			<hr />
+    			<p>彪马 (Puma) 是全球著名的运动品牌。 彪马 (Puma) 的鞋与服饰在嘻哈涂鸦文化中受到全球各地年轻人的极度欢迎。PUMA陪伴球王贝利进军了世足冠军决赛、陪伴网球好手贝克在温布敦的草地称雄。与最顶尖的运动员合作并不断追求最新的技术制作最佳的运动配备。创办人鲁道夫•达斯勒在1948年建立了PUMA这个德国品牌，数十年来PUMA一直在运动界位居要角，近几年来更成功的结合流行/运动，跃升为年轻人最爱品牌之一</p>
+    			<h3 class="text-left">细节展示</h2>
+    			<hr />
+    			<div class="row footer">
+	    			<div class="col-md-6">
+	    				<img src="images/xijie.jpg" alt="" />
+	    			</div>
+	    			<div class="col-md-6">
+	    				<img src="images/xijie.jpg" alt="" />
+	    			</div>
+    			</div>
+    			<div class="row footer">
+	    			<div class="col-md-6">
+	    				<img src="images/xijie.jpg" alt="" />
+	    			</div>
+	    			<div class="col-md-6">
+	    				<img src="images/xijie.jpg" alt="" />
+	    			</div>
+    			</div>
+    			<div class="row footer">
+	    			<div class="col-md-6">
+	    				<img src="images/xijie.jpg" alt="" />
+	    			</div>
+	    			<div class="col-md-6">
+	    				<img src="images/xijie.jpg" alt="" />
+	    			</div>
+    			</div>
+  			</div>
+</div>
+		</div>
+    </div>
+    <!--main_end-->
+    <hr />
+    <!--main2_end-->
+    <footer class="text-center">
+    	<p>CopyRight © 2000-2016, 版权所有 浪琴股份有限公司 banggo.com 沪ICP备05033127号</p>
+    </footer>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>

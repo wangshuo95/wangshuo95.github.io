@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+/*header_begin*/
+#logo{
+	padding-top: 11px;
+}
+.gouwuche{
+	height: 50px;
+	line-height: 50px;
+}
+.dl{
+    padding: 0px;
+    margin:0px;
+}
+/*header_end*/
+
+/*banner_begin*/
+.carousel{
+	margin-bottom: 40px;
+}
+.carousel img{
+	width: 100%;
+}
+
+footer{
+	margin-top: 50px;
+}
+li{
+    list-style: none;
+}
+/*banner_end*/
+.footerdh{
+    float: left;
+}

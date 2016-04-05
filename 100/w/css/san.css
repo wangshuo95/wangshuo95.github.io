@@ -2,7 +2,7 @@ ul{
 	padding: 0px;
 }
 #logo{
-	padding-top: 3px;
+	padding-top: 1px;
 }
 li{
 	list-style: none;
@@ -12,7 +12,6 @@ h5 span a{
 }
 .small{
 	width: 45px;
-    height: 45px;
     padding: 1px;
     background: #EEE;
     border: 1px solid #BBB;
@@ -37,6 +36,8 @@ h5 span a{
 }
 .right6{
 	margin: 10px 0;
+	
+	width: 45%;
 }
 .right7{
 	margin-bottom: 10px;
@@ -57,3 +58,7 @@ footer{
 	padding-bottom: 20px;
 }
 
+.footer{
+	width: 80%;
+	text-align: center;
+}

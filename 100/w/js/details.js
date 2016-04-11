@@ -30,10 +30,10 @@ $(function(){
 					/*添加购物车*/
 					$(function(){
 						$("#cart").click(function(){
-	
-							var cc=$(".cc").text();
-							var sl=$(".sl").val();
-							var dv8=$(".dv8").text();
+	                        var ys=$(".ys").text();
+						
+							var sl=$("#sl").val();
+							var dv8=$("#dv8").text();
 							
 							var str="感谢您的购买\n您购买的\n产品是:免烫高职棉条文衬衫\n颜色是:"+ys+"\n数量是:"+sl+"\n总价是："+dv8;
 							//确认框

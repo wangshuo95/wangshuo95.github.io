@@ -1,7 +1,7 @@
 // JavaScript Document
 /*切换大图s*/
 $(function(){
-	$("#piclist li").click(function(){
+	$(".piclist li").click(function(){
 		var path=$(this).children("img").attr("src");
 		//获取最后一个点
 		var index=path.lastIndexOf(".");
@@ -9,7 +9,6 @@ $(function(){
 		var str=path.substring(0,index);
 		//更改属性
 		$(".jqzoom img").attr("src",str+"_small.jpg").attr("jqimg",str+"_big.jpg");
-	    $(".lb").attr("href",str+"_small.jpg");
 		
 		})
 	

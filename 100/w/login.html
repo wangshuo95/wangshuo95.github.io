@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>Login</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--webfont-->
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.easydropdown.js"></script>
+</head>
+<body>
+<div class="header">
+   <div class="header_top">
+    <div class="container">
+      <div class="header_top_left">
+        <p>欢迎来到浪琴旗舰店</p>
+      </div>
+      <div class="header_top_right">
+        <div class="lang_list">
+            <select tabindex="4" class="dropdown">
+        <option value="" class="label" value="">语言</option>
+        <option value="1">中文</option>
+        <option value="2">English</option>
+      </select>
+        </div>
+        <ul class="header_user_info">
+          <a class="login" href="login.html">
+            <i class="user"></i>
+            <li class="user_desc">登录</li>
+          </a>
+          <div class="clearfix"> </div>
+        </ul>
+        <div class="main-search">
+            <form action="search.html">
+               <input type="text" value="男季最新款" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Search';}" class="text"/>
+                <input type="submit" value=""/>
+            </form>
+            <div class="close"><img src="images/close.png" /></div>
+         </div>
+         <div class="srch"><button></button></div>
+        <div class="clearfix"> </div>
+        <script type="text/javascript">
+             $('.main-search').hide();
+            $('button').click(function (){
+                $('.main-search').show();
+                $('.main-search text').focus();
+            }
+            );
+            $('.close').click(function(){
+                $('.main-search').hide();
+            });
+        </script>
+        </div>
+      <div class="clearfix"> </div>
+    </div>
+  </div>
+  <div class="header_bottom">
+    <div class="container">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png"  alt=""/></a>
+        </div>
+        
+                <script type="text/javascript" src="js/nav.js"></script>
+          </div><!-- end h_menu4 -->
+         
+          <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="contact">
+      	<div class="container">
+      	   <div class="account_grid">
+			   <div class="col-md-6 login-left">
+			  	 <h3>新用户</h3>
+				 <p>通过创建我们的商店帐户，您将能够通过结帐过程更快地移动，存储多个送货地址，查看和跟踪您的帐户和更多的订单。</p>
+				 <a class="acount-btn" href="register.html">去注册</a>
+			   </div>
+			   <div class="col-md-6 login-right">
+			  	<h3>注册客户</h3>
+				<p>如果你有我们的帐户，请直接登录。</p>
+				<form>
+				  <div>
+					<span>用户名<label>*</label></span>
+					<input type="text">
+				  </div>
+				  <div>
+					<span>密码<label>*</label></span>
+					<input type="text">
+				  </div>
+				  <a class="forgot" href="#">忘记密码</a>
+				  <input type="submit" value="登录">
+			    </form>
+			   </div>
+			   <div class="clearfix"> </div>
+			 </div>
+      	 </div>
+      </div>
+      <!--main-end-->
+       <div class="footer_top">
+        <div class="container">
+            <div class="col-sm-2 grid-3">
+                <h3>新手指南</h3>
+                <ul class="footer_list">
+                    <li><a href="contact.html">注册新用户</a></li>
+                    <li><a href="#">用户协议</a></li>
+                    <li><a href="#">找回密码</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-2 grid-3">
+                <h3>购物指南</h3>
+                <ul class="footer_list">
+                    <li><a href="#">红包使用说明</a></li>
+                    <li><a href="#">购物流程</a></li>
+                    <li><a href="#">订单状态</a></li>
+                    
+                </ul>
+            </div>
+            <div class="col-sm-2 grid-3">
+                <h3>配送方式</h3>
+                <ul class="footer_list">
+                    <li><a href="#">配送方式</a></li>
+                    <li><a href="#">订单拆分</a></li>
+                    <li><a href="#">商品验货与签收</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-2 grid-3">
+                <h3>支付方式</h3>
+                <ul class="footer_list">
+                    <li><a href="#">发票制度</a></li>
+                    <li><a href="#">支付方式</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-2 grid-3">
+                <h3>售后服务</h3>
+                <ul class="footer_list">
+                    <li><a href="#">退换货政策</a></li>
+                    <li><a href="#">退换办理流程</a></li>
+                    <li><a href="#">退款说明</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-2 grid-3">
+                <h3>联系方式</h3>
+                <ul class="footer_list">
+                    <li><a href="#">客服：400 821 9988</a></li>
+                    <li><a href="#">监督：021-38119999-6038</a></li>
+                    <li><a href="#">在线客服</a></li>
+                    <li><a href="#">用户调研</a></li>
+                </ul>
+            </div>
+
+        </div>
+       </div>
+       <div class="footer_bottom">
+        <div class="container text-center">
+            <div class="copy">
+                <p>CopyRight © 2000-2016, 版权所有 浪琴股份有限公司 langqin.com 沪ICP备05033127号</p>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+       </div>
+
+</body>
+</html>

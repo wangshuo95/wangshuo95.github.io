@@ -18,13 +18,7 @@ $(function(){
 	
 		
 				
-				//更改颜色文本
-				var ll=$(this).attr("txt");
-				
-				$("#ys").text(ll);
-				})
 			
-			})
 			
 		
 					/*添加购物车*/

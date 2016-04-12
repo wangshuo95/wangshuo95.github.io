@@ -1,3 +1,7 @@
+a{
+	text-decoration: none;
+	color: #000;
+}
 ul{
 	padding: 0px;
 }
@@ -60,4 +64,27 @@ footer{
 
 .footer img{
 	width: 80%;
+}
+.footer_top{
+	background:#ededed;
+	padding:3em 0;
+}
+.grid-3 h3{
+	color: #414141;
+	font-size: 1.1em;
+	font-weight: 600;
+}
+ul.footer_list, ul.footer_social{
+	padding:0;
+	list-style:none;
+}
+ul.footer_list li a{
+	color: #777;
+	font-size: 0.8125em;
+	font-weight: 500;
+	line-height: 1.8em;
+}
+ul.footer_list li a:hover{
+	text-decoration:none;
+	color:#fd926d;
 }

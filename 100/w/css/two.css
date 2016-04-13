@@ -12,13 +12,15 @@ clear: both; /*http://haoduoshipin.com/v/166*/
 	
 	 
 }
-
+a{
+	text-decoration: none;
+	color: red;
+	}
 h3{
 	padding-left: 0.5em;
 	padding-bottom: 0.5em;
 }
-a{
-	text-decoration: none;
+
 }
 ul{
 	list-style: none;
@@ -99,3 +101,6 @@ body{
 	.fen .s1{
 			margin-left: 5%;
 		}
+		footer{
+	margin-top: 50px;
+}

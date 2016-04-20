@@ -8,19 +8,17 @@ clear: both; /*http://haoduoshipin.com/v/166*/
 *{
 	margin:0px;
 	padding:0px;
-	box-sizing:border-box;
-	
-	 
+	box-sizing:border-box;		 
 }
-
+a{
+    text-decoration: none;
+        color: #1e1e1e;
+}
 h3{
 	padding-left: 0.5em;
 	padding-bottom: 0.5em;
 }
-a{
-	text-decoration: none;
-	    color: #1e1e1e;
-}
+
 ul{
 	list-style: none;
 }
@@ -361,9 +359,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 @media(min-width: 768px){
     .footer{
     width: 100%;
-    font-size: 1.7em;
+    font-size: 1.3em;
    
-    text-align: center;
+  
 
 }
 
@@ -380,13 +378,13 @@ h4{
 } 
 .footer .langqin{
       float: left;
-      width: 33.333333%;
+      
       padding-bottom: 2em;
 }
 .footer .langqin ul li{
-    width: 5em;
+    
     text-align: center;
-    height: 1.5em;
+   
     line-height: 1.5em;
     margin: 0 auto;
 }
@@ -398,31 +396,31 @@ h4{
 }
 .footer .peisong{
     float: left;
-   width: 33.333333%;
+   padding-left: 10%;
    
     
 }
 .footer .peisong ul li{
-    width: 5em;
+    
     text-align: center;
-    height: 1.5em;
+   
     line-height: 1.5em;
     margin: 0 auto;
 }
 .footer .zhifu{
     float: left;
-    width: 33.333333%;
+    padding-left: 10%;
     
 }
 .footer .zhifu ul li{
-    width: 5em;
+
     text-align: center;
-    height: 1.5em;
+ 
     line-height: 1.5em;
     margin: 0 auto;
 }
 .footer .ban{
-    width: 80%;
+    width: 90%;
     font-size: 12px;
     padding-left: 15%;
     text-align: center;

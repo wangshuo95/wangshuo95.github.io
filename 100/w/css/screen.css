@@ -309,8 +309,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 .footer{
     width: 100%;
     background-color:#CFD8DC ;
-    padding-left: 10%;
-    font-size: 1.5em;
+    padding-left: 5%;
+    font-size: 1.3em;
 
 }
 h4{
@@ -324,38 +324,39 @@ h4{
       padding-bottom: 2em;
 }
 .footer .langqin ul li{
-    width: 5em;
+  
     text-align: center;
-    height: 1.5em;
-    line-height: 1.5em;
+
+    line-height: 1.3em;
 }
 .footer ul li a{
     color: #9e9e9e;
 }
 .footer .peisong{
     float: left;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 .footer .peisong ul li{
-    width: 5em;
+   
     text-align: center;
-    height: 1.5em;
-    line-height: 1.5em;
+ 
+    line-height: 1.3em;
 }
 .footer .zhifu{
     float: left;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 .footer .zhifu ul li{
-    width: 5em;
+    
     text-align: center;
-    height: 1.5em;
-    line-height: 1.5em;
+
+    line-height: 1.3em;
 }
 .footer .ban{
-    width: 80%;
-    font-size: 12px;
+    width: 90%;
+    font-size: 12px;    
     padding-left: 15%;
     text-align: center;
+    padding-top: 10%;
 }
 

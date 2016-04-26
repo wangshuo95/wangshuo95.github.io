@@ -11,6 +11,10 @@
  */
 
 /* Etalage container (large thumb + small thumbs): */
+a{
+    text-decoration: none;
+       
+}
 #etalage{
 	display: none;
 }

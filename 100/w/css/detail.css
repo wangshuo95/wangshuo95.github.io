@@ -1,4 +1,8 @@
 /*主体内容样式*/
+a{
+    text-decoration: none;
+        
+}
 #content{
 	border:1px solid #AAA;
 	margin:10px auto;

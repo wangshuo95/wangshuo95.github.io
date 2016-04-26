@@ -9,13 +9,19 @@ clear: both; /*http://haoduoshipin.com/v/166*/
 	margin:0px;
 	padding:0px;
 	box-sizing:border-box;
-	
+	text-decoration: none;
 	 
 }
 a{
 	text-decoration: none;
-    color: red;
+	color: red;
 }
+
+p:hover{
+	color: #ccccff;
+	cursor: pointer;
+}
+
 h3{
 	padding-left: 0.5em;
 	padding-bottom: 0.5em;
@@ -25,7 +31,7 @@ ul{
 	list-style: none;
 }
 body{
-	 background: #EAEAF1;
+	 background: #fff;
 	 font-size: 63%;
 	 font-family: Helvetica,
 	 Arial,
@@ -49,7 +55,7 @@ body{
 }
  .se{
 	color: #000;
-	text-decoration: none;
+	
 	padding-left: 4%;
 	font-size: 1em;
 }

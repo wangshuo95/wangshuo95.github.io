@@ -13,6 +13,10 @@ html, body{
    font-size: 100%;
    background:#fff;
 }
+a{
+    text-decoration: none;
+       
+}
 .header_top{
 	background:#000;
 

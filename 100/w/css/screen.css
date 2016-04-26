@@ -24,7 +24,7 @@ ul{
 	list-style: none;
 }
 body{
-	 background: #EAEAF1;
+	 background: #fff;
 	 font-size: 63%;
 	 font-family: Helvetica,
 	 Arial,
@@ -45,7 +45,7 @@ h1, h2, h3, .h1, .h2, .h3 {
 }
 .header .logo{
     text-align: center;
-    background-color: #CFD8DC;
+    background-color: #ccccff;
 }
 .header ul{
     width: 100%;
@@ -308,7 +308,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 }
 .footer{
     width: 100%;
-    background-color:#CFD8DC ;
+    background-color:#ccccff ;
     padding-left: 5%;
     font-size: 1.3em;
 

@@ -58,6 +58,7 @@ h1, h2, h3, .h1, .h2, .h3 {
     float: left;
     
 }
+
 .header ul li a:hover{
     color: #CFD8DC;
 }
@@ -175,6 +176,7 @@ user agent stylesheeta:-webkit-any-link {
     .mainleft{
         width: 33.333333%;
         float: left;
+        padding-bottom: 1.3em;
         
     }
   .main1 img{
@@ -205,6 +207,9 @@ user agent stylesheeta:-webkit-any-link {
 }
 .shop-by-label{
     text-align: center;
+}
+.zz{
+    margin-bottom: 1.3em;
 }
     }
 @media (min-width: 768px){
